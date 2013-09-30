@@ -72,8 +72,8 @@
 			#{$site_footer}
 		</div>
 	</div>
-	<div id="licence" class="container">
-		#{$licence_tag}
+	<div id="license" class="container">
+		#{$license_tag}
 	</div>
 </footer>
 
