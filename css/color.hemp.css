@@ -48,7 +48,7 @@
   color: #8c8c8c;
 }
 .alert-theme a {
-  color: #999999;
+  color: #8c8c8c;
 }
 .alert-theme h4 {
   color: #8c8c8c;
@@ -114,4 +114,20 @@ fieldset[disabled] .btn-theme.active {
 }
 #contents .panel-info .panel-heading .panel-title {
   color: #ffffff;
+}
+a {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #a6a6a6;
+  text-decoration: underline;
+}
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  font-weight: bold;
+}
+#orgm_menu .nav > li > a:hover {
+  background-color: transparent;
 }

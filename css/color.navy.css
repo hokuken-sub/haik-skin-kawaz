@@ -48,7 +48,7 @@
   color: #999999;
 }
 .alert-theme a {
-  color: #eeeeee;
+  color: #030c1a;
 }
 .alert-theme h4 {
   color: #999999;
@@ -115,6 +115,15 @@ fieldset[disabled] .btn-theme.active {
 #contents .panel-info .panel-heading .panel-title {
   color: #ffffff;
 }
+a {
+  color: #030c1a;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #999999;
+  text-decoration: underline;
+}
 .btn-theme {
   background-color: #0e3675;
   border-color: #0b2c5f;
@@ -125,4 +134,11 @@ fieldset[disabled] .btn-theme.active {
 .btn-theme.active {
   background-color: #082148;
   border-color: #061731;
+}
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  font-weight: bold;
+}
+#orgm_menu .nav > li > a:hover {
+  background-color: transparent;
 }

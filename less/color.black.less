@@ -4,7 +4,8 @@
 @themeBorder:     lighten(@theme, 25%);
 @themeText:       @grayLight;
 
-@linkColor:       @grayLighter;
+@linkColor:       @theme;
+@linkColorHover:  @grayLight;
 
 @baseColor:    @theme; //hemp
 @endColor:     lighten(@baseColor, 10%);
@@ -12,6 +13,7 @@
 
 @import "skin.less";
 @import "color.less";
+
 
 .btn-theme {
   &:hover,
@@ -22,4 +24,15 @@
     background-color: @themeBackground;
     border-color: @themeBorder;
   }
+}
+
+#orgm_menu {
+	.nav > li.active > a,
+	.nav .nav > li.active > a {
+		font-weight: bold;
+	}
+
+	.nav > li > a:hover {
+		background-color: transparent;
+	}
 }

@@ -31,7 +31,7 @@ body > .navbar {
 }
 
 /* Change the docs' brand */
-body > .navbar .navbar-brand {
+#orgm_navbar.navbar .navbar-brand {
   padding-right: 0;
   padding-left: 0;
   margin-left: 20px;
@@ -48,21 +48,21 @@ body > .navbar .navbar-brand {
   box-sizing: border-box;
 }
 
-body > .navbar .navbar-brand.logo-image {
+#orgm_navbar.navbar .navbar-brand.logo-image {
 	padding: 0 20px;
 	border-style: none;
 	margin: 0;
-	line-height: 40px;
-	height: 40px;
+	line-height: 50px;
+	height: 50px;
 	box-sizing: border-box;
 }
 
-body > .navbar .navbar-brand:hover {
+#orgm_navbar.navbar .navbar-brand:hover {
   text-decoration: none;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
 }
 
-body > .navbar .navbar-brand.logo-image img {
+#orgm_navbar.navbar .navbar-brand.logo-image img {
 	max-height: 50px;
 	max-width: none;
 }
@@ -299,6 +299,47 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   padding: 0 10px;
   color: rgba(255,255,255,.25);
 }
+
+
+/* MenuBar CONTENT
+-------------------------------------------------- */
+#orgm_menu h2{
+	font-size: 1.5em;
+  font-weight: normal;
+}
+
+#orgm_menu h3{
+	font-size: 1.2em;
+  font-weight: normal;
+}
+
+#orgm_menu h4{
+	font-size: 1em;
+  font-weight: normal;
+}
+
+#orgm_menu ul.list1 {
+	margin-left:0;
+	margin-top: 0;
+}
+
+#orgm_menu .nav > li > a {
+	padding: 5px 20px;
+}
+
+#orgm_menu .nav .nav {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#orgm_menu .nav .nav > li > a {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	font-size: 90%;
+}
+
 
 /* Contents Body */
 

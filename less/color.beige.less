@@ -4,7 +4,9 @@
 @themeBorder:     lighten(@theme, 25%);
 @themeText:       darken(@theme, 5%);
 
-@linkColor:       @theme;
+@linkColor:       @gray;
+@linkColorHover:  @theme;
+
 
 @baseColor:    @theme; //brown
 @endColor:     lighten(@baseColor, 30%);
@@ -16,4 +18,16 @@
 .btn-theme {
 	background-color: lighten(@theme, 15%);
 	border-color: lighten(@theme, 10%);
+}
+
+#orgm_menu {
+	.nav > li.active > a,
+	.nav .nav > li.active > a {
+		color: @theme;
+		font-weight: bold;
+	}
+
+	.nav > li > a:hover {
+		background-color: transparent;
+	}
 }

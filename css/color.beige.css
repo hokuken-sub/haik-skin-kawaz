@@ -29,7 +29,7 @@
   color: #988858;
 }
 .alert-theme a {
-  color: #a59564;
+  color: #555555;
 }
 .alert-theme h4 {
   color: #988858;
@@ -96,6 +96,15 @@ fieldset[disabled] .btn-theme.active {
 #contents .panel-info .panel-heading .panel-title {
   color: #ffffff;
 }
+a {
+  color: #555555;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #a59564;
+  text-decoration: underline;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -118,4 +127,12 @@ fieldset[disabled] .btn-theme.active {
 .btn-theme {
   background-color: #c1b694;
   border-color: #b8ab84;
+}
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  color: #a59564;
+  font-weight: bold;
+}
+#orgm_menu .nav > li > a:hover {
+  background-color: transparent;
 }
