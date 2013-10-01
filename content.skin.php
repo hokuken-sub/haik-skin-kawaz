@@ -54,10 +54,10 @@
 ================================================== -->
 <div class="container" id="contents">
 	<div class="row">
-		<div class="col-sm-9 col-lg-push-3 marketing" role="main">
+		<div class="col-sm-9 col-sm-push-3 marketing" role="main">
 			#{$body}
 		</div>
-		<aside class="col-sm-3 col-lg-pull-9">
+		<aside class="col-sm-3 col-sm-pull-9">
 			#{$menu}
 		</aside>
 	</div>
