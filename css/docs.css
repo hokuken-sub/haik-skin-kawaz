@@ -32,8 +32,8 @@ body > .navbar {
 
 /* Change the docs' brand */
 #orgm_navbar.navbar .navbar-brand {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-left: 20px;
   float: right;
   font-weight: bold;
