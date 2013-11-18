@@ -97,23 +97,8 @@ fieldset[disabled] .btn-theme.active {
 #contents .panel-heading .panel-title {
   line-height: 1.1;
 }
-#contents .panel-default .panel-heading .panel-title {
-  color: #333333;
-}
-#contents .panel-primary .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-success .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-warning .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-danger .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-info .panel-heading .panel-title {
-  color: #ffffff;
+#contents .panel-heading .panel-title a:hover {
+  color: inherit;
 }
 a {
   color: #8c8c8c;
