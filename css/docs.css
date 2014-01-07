@@ -231,76 +231,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 
 }
 
-/* Masthead (docs home)
-------------------------- */
-.masthead {
-  padding: 70px 0 80px;
-  margin-bottom: 0;
-  color: #fff;
-}
-
-#orgm_eyecatch .eyecatch {
- padding-top:0;
- padding-bottom:0;
- margin:0;
-}
-
-#orgm_eyecatch .eyecatch:after {
-	background-image:none;
-}
-
-.masthead .carousel .item {
-	height: 500px;
-	z-index: 1;
-}
-
-.masthead .carousel.fit .item {
-	max-height: inherit;
-}
-
-.masthead .carousel .item > img {
-	min-width: 100%;
-	min-height: 100%;
-}
-
-.masthead p {
-  font-size: 40px;
-  font-weight: 200;
-  line-height: 1.25;
-}
-
-.masthead .carousel .lead{
-  font-size: 24px;
-}
-
-#orgm_eyecatch .carousel .carousel-control{
-	z-index: 1;
-	background-color: transparent;
-	background-image: none;
-}
-
-#orgm_eyecatch .carousel.single .carousel-control{
-	display:none;
-}
-
-.masthead h1 {
-  line-height: 1;
-  letter-spacing: -2px;
-}
-
-
-/* Textual links in masthead */
-.masthead-links {
-  margin: 0;
-  list-style: none;
-}
-.masthead-links li {
-  display: inline;
-  padding: 0 10px;
-  color: rgba(255,255,255,.25);
-}
-
-
 /* MenuBar CONTENT
 -------------------------------------------------- */
 #orgm_menu h2{
@@ -1049,71 +979,71 @@ form.bs-docs-example {
 ------------------------- */
 @media (max-width: 767px) {
   /* Remove any padding from the body */
-  body {
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-  }
+	body {
+		padding-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+		box-sizing: border-box;
+	}
 
-  body > .navbar-fixed-top {
-  	margin-left:0;
-  	margin-right: 0;
-  }
-  
-  #contents {
-	  padding-left: 20px;
-	  padding-right: 20px;
-  }
+	body > .navbar-fixed-top {
+		margin-left:0;
+		margin-right: 0;
+	}
 
-  #orgm_eyecatch .carousel .item {
-	  height: 200px;
-  }
-  #orgm_eyecatch .carousel-caption h1 {
-	  font-size: 40px;
-  }
+	#contents {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
-  /* Widen masthead and social buttons to fill body padding */
-  .masthead {
-    padding: 0;
-  }
-  .masthead h1 {
-    font-size: 90px;
-  }
-  .masthead p,
-  .masthead .btn {
-    font-size: 24px;
-  }
-  .bs-docs-social {
-    margin: 0 -20px;
-  }
+	#orgm_eyecatch .haik-section{
+		height: 200px !important;
+	}
+	#orgm_eyecatch .carousel .item {
+		max-height: 200px !important;
+		min-height: 200px !important;
+	}
+	#orgm_eyecatch .carousel .item img {
+		min-height: 200px !important;
+	}
+	#orgm_eyecatch .carousel .carousel-caption h1 {
+		font-size: 28px;
+	}
+	#orgm_eyecatch .carousel .carousel-caption .lead {
+		font-size: 16px;
+	}
 
-  /* Space out the show-grid examples */
-  .show-grid [class*="span"] {
-    margin-bottom: 5px;
-  }
-
-  /* Sidenav */
-  .bs-docs-sidenav {
-    width: auto;
-    margin-bottom: 20px;
-  }
-  .bs-docs-sidenav.affix {
-    position: static;
-    width: auto;
-    top: 0;
-  }
-
-  /* Unfloat the back to top link in footer */
-  .footer {
-	margin-left:0;
-	margin-right:0;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .footer p {
-    margin-bottom: 9px;
-  }
+	/* Widen masthead and social buttons to fill body padding */
+	.bs-docs-social {
+		margin: 0 -20px;
+	}
+	
+	/* Space out the show-grid examples */
+	.show-grid [class*="span"] {
+		margin-bottom: 5px;
+	}
+	
+	/* Sidenav */
+	.bs-docs-sidenav {
+		width: auto;
+		margin-bottom: 20px;
+	}
+	.bs-docs-sidenav.affix {
+		position: static;
+		width: auto;
+		top: 0;
+	}
+	
+	/* Unfloat the back to top link in footer */
+	.footer {
+		margin-left:0;
+		margin-right:0;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer p {
+		margin-bottom: 9px;
+	}
 }
 
 /* Landscape phones
@@ -1142,9 +1072,22 @@ form.bs-docs-example {
     margin: 0 auto;
   }
 
-  #orgm_eyecatch .carousel-caption {
-	  position: absolute;
-  }
+	#orgm_eyecatch .haik-section{
+		height: 200px !important;
+	}
+	#orgm_eyecatch .carousel .item {
+		max-height: 200px !important;
+		min-height: 200px !important;
+	}
+	#orgm_eyecatch .carousel .item img {
+		min-height: 200px !important;
+	}
+	#orgm_eyecatch .carousel .carousel-caption h1 {
+		font-size: 28px;
+	}
+	#orgm_eyecatch .carousel .carousel-caption .lead {
+		font-size: 16px;
+	}
   
   #orgm_nav .nav.list1 {
 	  margin-left: -15px;
