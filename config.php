@@ -1,7 +1,7 @@
 <?php
 $config = array(
 	'name' => 'kawaz',
-	'version' => '1.0.3',
+	'version' => '1.1.0',
 	'thumbnail' => 'img/thumbnail.png',
 	'style_file' => 'css/docs.css',
 	'templates' => array(
